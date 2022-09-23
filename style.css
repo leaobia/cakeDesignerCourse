@@ -154,3 +154,9 @@ section{
 .p4{
     border-left: 2px solid #B8B89F;
 }
+
+#contact{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/doce7.jpg");
+    background-size: cover;
+    background-position: center;
+}
