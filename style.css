@@ -33,7 +33,7 @@ nav ul li a:hover{
 }
 section{
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,4 +124,10 @@ section{
     background-size: cover;
     background-position: center;
     transition: all .60s ease-in-out;
+}
+
+#us{
+    gap: 5vh;
+    background-color: blanchedalmond;
+   
 }
