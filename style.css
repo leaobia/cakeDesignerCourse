@@ -49,3 +49,79 @@ section{
 .titulo{
     font-size: 6rem;
 }
+
+#about{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-items: center;
+    background-color: peru;
+    padding: 0px 50%;
+    
+}
+
+.about1, .about2, .about3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about1-img{
+    background: url("./img/doce1.jpg");
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 28px;
+    
+}
+
+.about2-img{
+    background: url("./img/doce2.jpg");
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+
+.about3-img{
+    background: url("./img/doce3.jpg");
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about-msg{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.about1-img:hover{
+    background: url("./img/doce4.png");
+    background-size: cover;
+    background-position: center;
+    transition: all .60s ease-in-out;
+}
+.about2-img:hover{
+    background: url("./img/doce5.webp");
+    background-size: cover;
+    background-position: center;
+    transition: all .60s ease-in-out;
+}
+.about3-img:hover{
+    background: url("./img/doce6.webp");
+    background-size: cover;
+    background-position: center;
+    transition: all .60s ease-in-out;
+}
