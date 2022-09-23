@@ -45,6 +45,8 @@ section{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/cake.jpg");
     color: #ffff;
     gap: 5vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .titulo{
