@@ -362,8 +362,9 @@ h4{
         
     }
     .text-box{
-        width: 2vw;
-        font-size: 2rem;
+        width: 38vw;
+        font-size: 1.5rem;
+        padding: 2px 0;
      
     }
     .text-box input{
@@ -426,7 +427,7 @@ h4{
        
     }
     .text-box{
-        width: 25vw;
+        width: 38vw;
         font-size: 1.5rem;
         
         padding: 2px 0;
@@ -481,7 +482,67 @@ h4{
         
    }
   
+   @media (max-width:550px) {
+    .titulo{
+       
+        text-align: center;
+        font-size: 5rem;
+    }
+    .p1,.p2,.p3, .p4{
+        height: 10vh;
+        width: 90vw;
+        margin-left: 15%;
+        padding: 25px;
+        font-size: .8rem;
+        
+    }
+    .text-box{
+        width: 43vw;
+        font-size: 1rem;  
+    }
 
+ 
+    .text-box i{
+
+        padding-bottom: 5px;
+        padding-top: 2px;
+        
+    }
+    .text-box input{
+       
+        font-size: 1.2rem;
+        
+        
+    }
+    .btn{
+        
+        width: 43%;
+    }
+   
+    footer ul{
+       
+        gap: 3vw;
+        margin-top:  3vh;
+        margin-bottom: 0vh;
+        
+        
+    }
+    
+    .localization{
+        margin: 1vh 3vw;
+        margin-left: 20%;
+        width: 40vw;
+        font-size: .7rem;
+       
+        
+   }
+
+   .localization h4{
+    font-size: 1rem;
+   }
+
+
+   }
     
     
    
