@@ -372,7 +372,9 @@ h4{
         font-size: 1.2rem;
      
     }
-
+    .btn{
+        width: 38vw;
+    }
 
     footer ul{
         
@@ -417,6 +419,10 @@ h4{
         flex-direction: column;
         padding: 2% 10%;
     }
+    .p1,.p2,.p3, .p4{
+        font-size: 1.3rem;
+    }
+    
     h3{
         margin-left: 30%;
     }
@@ -449,7 +455,7 @@ h4{
     
     .btn{
         margin-left: 30%;
-        width: 32%;
+        width: 38%;
     }
 
     footer{
@@ -481,8 +487,18 @@ h4{
        
         
    }
+
+}
   
    @media (max-width:550px) {
+
+    section{
+      
+        max-width: 100vw;
+        min-height: 80vh;
+       
+    }
+   
     .titulo{
        
         text-align: center;
@@ -543,9 +559,38 @@ h4{
 
 
    }
+   @media (max-width:425px){
+    nav{
+
+        padding-left: 5vw;
+    }
+    h3{
+        margin-left: 20%;
+    }
+    .message{
+       
+        margin-left: 20%;
+    }
+
+    .text-box{
+        width: 56vw;
+    }
+    .btn{
+        margin-left: 20%;
+        width: 56%;
+    }
+    footer ul li{
     
+        width: 5.5vw;
+        
+    }
+
+   }
+
+    
+
     
    
     
   
-}
+
