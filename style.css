@@ -422,16 +422,28 @@ h4{
     .message{
        
         margin-left: 30%;
+        
        
     }
+    .text-box{
+        width: 25vw;
+        font-size: 1.5rem;
+        
+        padding: 2px 0;
+       
+    }
+
  
     .text-box i{
 
         padding-bottom: 5px;
+        
     }
     .text-box input{
        
-        font-size: 1.4rem; 
+        font-size: 1.4rem;
+        
+        
     }
     
     .btn{
