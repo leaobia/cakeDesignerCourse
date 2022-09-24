@@ -186,6 +186,11 @@ h3{
     color: white;
 }
 
+.text-box i{
+    float: left;
+    text-align: center;
+    width: 3vw;
+}
 .text-box input{
     border: none;
     outline: none;
