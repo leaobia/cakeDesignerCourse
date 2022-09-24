@@ -304,3 +304,30 @@ h4{
     font-size: 1.3rem;
     padding-bottom: 5px;
 }
+
+/* Tablet */
+@media(max-width:960px){
+    body{
+
+
+    }
+
+    #us{
+        background-color: #3b5998;
+    }
+    footer ul{
+        
+        gap: 6vw;
+        margin-top:  3vh;
+        margin-bottom: 3vh;
+        margin-left: 5%;
+        
+    }
+    .localization{
+        margin: 3vh 20vw;
+       
+        
+   }
+
+}
+
