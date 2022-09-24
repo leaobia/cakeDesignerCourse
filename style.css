@@ -307,14 +307,25 @@ h4{
 
 /* Tablet */
 @media(max-width:960px){
-    body{
-
-
+    
+   .about3-img{
+    margin-right: 22px;
+   }
+    
+    .p1,.p2,.p3, .p4{
+        width: 50vw;
+        margin-left: 5%;
+       
+        
     }
 
-    #us{
-        background-color: #3b5998;
+    .text-box input{
+       
+        font-size: 1.2rem;
+     
     }
+
+
     footer ul{
         
         gap: 6vw;
@@ -323,8 +334,18 @@ h4{
         margin-left: 5%;
         
     }
+
+    footer ul li{
+
+        width: 4vw;
+        height: 6vh;
+        margin-top: 10px;
+        
+        
+        
+    }
     .localization{
-        margin: 3vh 20vw;
+        margin: 3vh 10vw;
        
         
    }
