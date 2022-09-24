@@ -262,7 +262,7 @@ footer ul li span{
 
 footer ul li:hover span{
     transition: all .8s ease-in-out;
-    color: #ffff;
+    color: rgb(6, 2, 2);
 }
 footer ul li:hover span:nth-child(1){
     transform: translate(0px, 0px);
@@ -604,6 +604,26 @@ h4{
     .btn{
         width: 62vw;
     }
+   }
+
+   @media(max-width:370px){
+    nav{
+
+        padding-left: 10vw;
+        gap: .2vw;
+        font-size: .8rem;
+    }
+
+    .text-box{
+        width: 64vw;
+    }
+    .btn{
+        width: 64vw;
+    }
+    .localization{
+        margin-left: 10%;
+   }
+  
    }
     
 
