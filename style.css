@@ -58,7 +58,7 @@ section{
     flex-direction: row;
     gap: 5vw;
     align-items: center;
-    background-color: peru;
+    background-color: #F8D9D5;
     padding: 0px 50%;
     
 }
@@ -131,7 +131,7 @@ section{
 
 #us{
     gap: 6.5vh;
-    background-color: blanchedalmond;
+    background-color: #D8E2EC;
    
 }
 
@@ -168,7 +168,8 @@ section{
 
 h3{
     font-size: 3rem;
-    border-bottom: 6px solid #025159;
+    border-bottom: 6px solid #F8D9D5;
+    color: #F8D9D5;
     margin-bottom: 2vh;
     margin-left: 40%;
 }
@@ -181,7 +182,7 @@ h3{
 .text-box{
     width: 22vw;
     font-size: 1rem;
-    border-bottom: #025159 2px solid;
+    border-bottom: #F2E4F9 2px solid;
     padding: 5vh 0;
     color: white;
 }
@@ -206,7 +207,7 @@ h3{
     font-size: 1.6rem;
     color: white;
     background: transparent;
-    border: #025159 2px solid;
+    border: #F2E4F9 2px solid;
     padding:  0 2vw;
     cursor: pointer;
     width: 21%;
@@ -214,5 +215,92 @@ h3{
 
 .btn:hover{
     transition: ease-out 1s ;
-    box-shadow: inset 400px 0 0 0 #025159;
+    box-shadow: inset 400px 0 0 0 #F2E4F9;
+    color: #3F303F;
+}
+footer{
+    display: flex;
+    
+    background: linear-gradient(rgba(0,0,0,0.7), transparent);
+}
+footer ul{
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+    gap: 6vw;
+    margin-top:  7vh;
+    margin-bottom: 7vh;
+    margin-left: 5%;
+    
+}
+
+footer ul li{
+    position: relative;
+    list-style: none;
+    width: 4vw;
+    height: 8vh;
+    margin: 0 10px;
+    
+    
+}
+
+footer ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2E4F9;
+    color: #3F303F;
+    font-size: 1.2rem !important;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+footer ul li:hover span{
+    z-index: 1000;
+    transition: all .8s ease-in-out;
+    color: #ffff;
+}
+footer ul li:hover span:nth-child(1){
+    transform: translate(0px, 0px);
+    opacity: 0.2;
+    
+}
+footer ul li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: 0.5;
+}
+footer ul li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: 0.8;
+}
+footer ul li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: 0.10;
+}
+footer ul li:nth-child(1):hover span{
+    background-color: #3b5998;
+}
+footer ul li:nth-child(2):hover span{
+    background-color: #34af23 ;
+}
+footer ul li:nth-child(3):hover span{
+    background-color: #517fa4 ;
+}
+footer ul li:nth-child(4):hover span{
+    background-color: #00aced;
+}
+
+.localization{
+     margin: 7vh 20vw;
+    
+     
+}
+h4{
+    font-size: 1.3rem;
+    padding-bottom: 5px;
 }
