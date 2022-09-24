@@ -262,7 +262,7 @@ footer ul li span{
 
 footer ul li:hover span{
     transition: all .8s ease-in-out;
-    color: rgb(6, 2, 2);
+    color: #F2E4F9;
 }
 footer ul li:hover span:nth-child(1){
     transform: translate(0px, 0px);
@@ -622,6 +622,53 @@ h4{
     }
     .localization{
         margin-left: 10%;
+   }
+  
+   }
+   @media(max-width:295px){
+    nav{
+
+        padding-left: 6vw;
+       
+        font-size: .6rem;
+    }
+    .subtitulo{
+        font-size: 1rem;
+    }
+    .p1,.p2,.p3, .p4{
+        height: 7vh;
+        margin-left: 15%;
+        padding: 0 20px;
+        font-size: .6rem;
+        
+    }
+    h3{
+        margin-left: 15%;
+        font-size: 2rem;
+    }
+    .message{
+       
+        margin-left: 15%;
+        
+       
+    }
+    .text-box{
+        
+        font-size: .9rem;
+    }
+    .text-box input{
+     
+        width: 64vw;
+    }
+    .btn{
+        margin-top: 15px;
+        margin-left: 15%;
+        height: 6vh;
+        font-size: 1rem;
+    }
+    .localization{
+        margin-left: 3%;
+        
    }
   
    }
