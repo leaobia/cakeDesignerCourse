@@ -266,20 +266,20 @@ footer ul li:hover span{
 }
 footer ul li:hover span:nth-child(1){
     transform: translate(0px, 0px);
-    opacity: 0.2;
+    opacity: 0.9;
     
 }
 footer ul li:hover span:nth-child(2){
     transform: translate(10px, -10px);
-    opacity: 0.5;
+    opacity: 0.8;
 }
 footer ul li:hover span:nth-child(3){
     transform: translate(20px, -20px);
-    opacity: 0.8;
+    opacity: 0.7;
 }
 footer ul li:hover span:nth-child(4){
     transform: translate(30px, -30px);
-    opacity: 0.10;
+    opacity: 0.6;
 }
 footer ul li:nth-child(1):hover span{
     background-color: #3b5998;
