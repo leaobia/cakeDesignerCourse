@@ -8,7 +8,7 @@ O site é sobre uma instituição educacional de design de alimentos de panifica
 ![](./img/sessao1.PNG)
 ![](./img/sessao2.PNG)
 ![](./img/sessao3.PNG)
-![](./img/sessao4.PNG)
+![](./img/sessao5.PNG)
 ![](./img/footer.PNG)
 
 ---

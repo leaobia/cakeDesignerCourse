@@ -496,7 +496,7 @@ h4{
     }
     section{
       
-        max-width: 100vw;
+        width: 100%;
         min-height: 80vh;
        
     }
