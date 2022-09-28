@@ -137,7 +137,7 @@ section{
 
 .p1,.p2,.p3, .p4{
     width: 70vw;
-    margin-left: 25%;
+    margin-left: 20%;
     padding: 15px;
     
 }
@@ -355,7 +355,7 @@ h4{
    }
     
     .p1,.p2,.p3, .p4{
-        width: 50vw;
+        width: 45vw;
         margin-left: 5%;
        
         
@@ -419,7 +419,7 @@ h4{
         padding: 2% 10%;
     }
     .p1,.p2,.p3, .p4{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     h3{
@@ -508,8 +508,8 @@ h4{
     }
     .p1,.p2,.p3, .p4{
         height: 10vh;
-        width: 90vw;
-        margin-left: 15%;
+        width: 70vw;
+        margin-left: 13%;
         padding: 25px;
         font-size: .8rem;
         
@@ -637,7 +637,7 @@ h4{
     }
     .p1,.p2,.p3, .p4{
         height: 7vh;
-        margin-left: 15%;
+        margin-left: 13%;
         padding: 0 20px;
         font-size: .6rem;
         
